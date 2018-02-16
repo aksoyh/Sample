@@ -24,5 +24,10 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void Sample_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Sample");
+        }
     }
 }
